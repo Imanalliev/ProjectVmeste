@@ -1,0 +1,87 @@
+.comand{
+    background-color: rgb(144, 16, 39);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    
+}
+
+#comand1{
+    background-image: url('./image/shutterstock_1814872103_Large_febebd5f-2da2-454b-9320-ee43f14685df_1280x.webp');
+    background-size: cover; /* чтобы изображение занимало всю площадь секции */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
+    height: 700px;
+    width: auto;
+    box-shadow: inset 50px 1000px 100px #0000008d, inset -50px -50px 100px #000000;
+    /* padding-top: 20px; */
+}
+.comand h1{
+   
+    font-size: 20px;
+}
+.comand span{
+    color: aqua;
+}
+.container{
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.comand1 img{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+.comanda a{
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 20px;
+    /* color: aliceblue; */
+    color: aliceblue;
+    
+}
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.comand2{
+    padding: 3%;
+    bottom: 100px;
+}
+.comand2 h1{
+    color: rgba(240, 248, 255, 0.716);
+    font-size: 30px;
+}
+.comand2 p{
+    color: rgba(240, 248, 255, 0.673);
+    font-size: 20px;
+   
+}
+.comand2 button{
+    background-color: crimson;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 5%;
+}
+.comand2h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.flexfoto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flexfoto img{
+    border-radius: 15px;
+}
